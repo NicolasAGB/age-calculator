@@ -7,5 +7,27 @@
   </head>
   <script src="js/main.js" defer></script>
   <link rel="stylesheet" href="css/styles.css" />
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Age calculator</h1>
+      <form id="ageCalculator">
+        <div class="form-group">
+			<label for="birthdate">Enter your Birthdate: </label>
+			<input type="text" name="Birthdate" id="Birthdate" placeholder="DD-MM-YYYY" required>
+		</div>
+		<div class="form-group">
+			<button type="submit">Calculate!</button>
+		</div>
+      </form>
+	  <div class="result-container" id="resultContainer">
+		<div class="result" id="result">
+			<div class="result-item">
+				<!-- <h3>Weeks: Passed: </h3>
+				<p>ageInWeeks</p> -->
+				
+			</div>
+		</div>
+	  </div>
+    </div>
+  </body>
 </html>
